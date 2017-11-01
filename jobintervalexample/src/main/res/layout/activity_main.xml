@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.atar.jobintervalexample.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/job_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No job is running..."
+            android:textSize="40sp"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/msg_writer"
+            android:hint="Write a message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/start_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:backgroundTint="@android:color/holo_green_light"
+            app:fabSize="normal"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/stop_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:backgroundTint="@android:color/holo_red_light"
+            app:fabSize="normal"/>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

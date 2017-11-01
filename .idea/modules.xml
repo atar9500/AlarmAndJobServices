@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AlarmAndJobServices.iml" filepath="$PROJECT_DIR$/AlarmAndJobServices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jobintervalexample/jobintervalexample.iml" filepath="$PROJECT_DIR$/jobintervalexample/jobintervalexample.iml" />
+      <module fileurl="file://C:\Users\Atar\Documents\AndroidProjects\AlarmAndJobServices\jobintervalexample\jobschedualerexample.iml" filepath="C:\Users\Atar\Documents\AndroidProjects\AlarmAndJobServices\jobintervalexample\jobschedualerexample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jobschedulerexample/jobschedulerexample.iml" filepath="$PROJECT_DIR$/jobschedulerexample/jobschedulerexample.iml" />
+    </modules>
+  </component>
+</project>
